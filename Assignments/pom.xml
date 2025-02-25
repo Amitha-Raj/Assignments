@@ -3,4 +3,16 @@
   <groupId>obsqura</groupId>
   <artifactId>Assignments</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+  <plugings>
+  <plugin>
+<groupId>org.codehaus.mojo</groupId>
+<artifactId>exec-maven-plugin</artifactId>
+<version>3.1.0</version>
+<configuration>
+<mainClass>assignment1.HelloWorld</mainClass>
+</configuration>
+</plugin> 
+  </plugings>
+  </build>
 </project>
